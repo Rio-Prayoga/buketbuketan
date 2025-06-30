@@ -27,7 +27,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   const handleWhatsAppOrder = () => {
     const message = `Halo admin Lofty Florist! 🌸\n\nSaya tertarik dengan produk *${product.name}* seharga *Rp.${product.price.toLocaleString()}*. Apakah buket ini masih tersedia?\n\nKalau tersedia, saya ingin tahu detail pengirimannya. Terima kasih! 🙏😊`;
-    const whatsappUrl = `https://wa.me/6208987169353?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/6285840469673?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
