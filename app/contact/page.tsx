@@ -48,7 +48,7 @@ export default function ContactPage() {
                   >
                     Telepon:
                   </h3>
-                <p style={{ color: '#585B5E' }}>08987169353</p> {/* <- Ubah warna di sini */}
+                <p style={{ color: '#585B5E' }}>085840469673</p> {/* <- Ubah warna di sini */}
               </div>
 
               <div>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                   >
                     WhatsApp:
                   </h3>
-                <p style={{ color: '#585B5E' }}>08987169353</p> {/* <- Ubah warna di sini */}
+                <p style={{ color: '#585B5E' }}>085840469673</p> {/* <- Ubah warna di sini */}
               </div>
 
               <div>
