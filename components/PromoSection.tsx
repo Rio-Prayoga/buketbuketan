@@ -29,9 +29,9 @@ export default function PromoSection() {
   };
 
   return (
-    <section className="py-16 bg-white relative overflow-hidden">
+    <section className="pt-4 pb-8 bg-white relative overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-[#1E293B] mb-12">
+        <h2 className="text-3xl font-bold text-center text-[#1E293B] mb-8">
           Sedang Promo
         </h2>
 
