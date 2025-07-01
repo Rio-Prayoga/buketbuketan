@@ -12,14 +12,14 @@ export default function PromoSection() {
   useEffect(() => {
     const container = scrollRef.current;
     if (container) {
-      container.scrollLeft = 300; // Geser langsung ke kartu tengah (300px)
+      container.scrollLeft = 250; // geser ke kartu tengah
     }
   }, []);
 
   const handleScroll = () => {
     const container = scrollRef.current;
     if (!container) return;
-    const maxScroll = 300 * promoProducts.length;
+    const maxScroll = 250 * promoProducts.length;
 
     if (container.scrollLeft <= 10) {
       container.scrollLeft += maxScroll;
@@ -41,11 +41,11 @@ export default function PromoSection() {
           onScroll={handleScroll}
           className="overflow-x-auto scrollbar-hide px-4 -mx-4"
         >
-          <div className="flex gap-5 justify-center sm:justify-start px-[calc((100vw-300px)/2)] sm:px-0">
+          <div className="flex gap-5 justify-center sm:justify-start px-[calc((100vw-250px)/2)] sm:px-0">
             {repeated.map((product, index) => (
               <div
                 key={`${product.id}-${index}`}
-                className="w-[300px] flex-shrink-0"
+                className="w-[250px] flex-shrink-0"
               >
                 <ProductCard product={product} />
               </div>
